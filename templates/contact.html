@@ -1,0 +1,71 @@
+{% extends 'layout.html'%}
+{% block title %}Contact{% endblock%}
+{% block body%}
+<section>
+    <div class="title">
+        <h1>Contact us</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, accusantium!
+        </p>
+    </div>
+
+    <div class="contact">
+        <div class="contact-form">
+            <form>
+                <div class="row">
+                    <div class="input50">
+                        <input type="text" name="" id="" placeholder="First Name">
+                    </div>
+                    <div class="input50">
+                        <input type="text" name="" id="" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input50">
+                        <input type="text" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="input50">
+                        <input type="text" name="" id="" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input100">
+                        <textarea name="" id="" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input100">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="contact-info">
+            <div class="info-box">
+                <img src="image/address.png" class="contact-icon" alt="">
+                <div class="details">
+                    <h4>Address</h4>
+                    <p>5 Ave Rosario, Bacolod City, PH</p>
+                </div>
+            </div>
+            <div class="info-box">
+                <img src="image/email.png" class="contact-icon" alt="">
+                <div class="details">
+                    <h4>Email</h4>
+                    <a href="mailto:onceacurious@gmail.com">mail@gmail.com</a>
+                    <a href="mailto:onceacurious@gmail.com">mail2@gmail.com</a>
+                </div>
+            </div>
+            <div class="info-box">
+                <img src="image/call.png" class="contact-icon" alt="">
+                <div class="details">
+                    <h4>Call</h4>
+                    <a href="tel:+639123456789">+63 912 345 6789</a><br>
+                    <a href="tel:+639123451234">+63 912 345 1234</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock %}
