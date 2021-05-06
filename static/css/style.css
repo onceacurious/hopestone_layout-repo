@@ -92,14 +92,6 @@ section.home {
   background-repeat: no-repeat;
 }
 
-/* .landing {
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* top: 100%;
-  left: 100%; */
 /* NAVIGATION */
 .navigation {
   top: 0;
@@ -165,15 +157,22 @@ section.home {
 
 /* HOMEPAGE */
 .home-content {
-  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 10;
-  max-width: 600px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 40px;
 }
 .home-image {
   position: absolute;
   bottom: 0;
   right: 0;
-  height: 110%;
+  height: 100%;
+  width: 100%;
 }
 
 /* SERVICES PAGE */
@@ -347,6 +346,9 @@ section.home {
 }
 
 @media (max-width: 1068px) {
+  .home-content p {
+    text-align: center;
+  }
   .home-image {
     display: none;
   }
