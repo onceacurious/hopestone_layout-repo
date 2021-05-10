@@ -185,6 +185,11 @@ section.home {
   text-align: center;
 }
 
+.services .service a {
+  text-decoration: none;
+  color: #111;
+}
+
 .services .service {
   padding: 40px;
 }
@@ -201,7 +206,7 @@ section.home {
   max-width: 100px;
 }
 
-.services .service h2 {
+.services .service a h2 {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
@@ -344,6 +349,8 @@ section.home {
   width: 20px;
   margin-right: 40px;
 }
+
+/* REGISTER */
 
 @media (max-width: 1068px) {
   .home-content p {
