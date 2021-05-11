@@ -502,7 +502,8 @@ section.home {
   .home-content p {
     text-align: center;
   }
-  .home-image {
+  .home-image,
+  .auth-image {
     display: none;
   }
 
@@ -527,17 +528,21 @@ section.home {
     flex-direction: column;
   }
 
-  .contact-form {
+  .contact-form,
+  .register-form {
     width: 100%;
     padding: 30px 30px 20px;
   }
 
-  .contact-form .row {
+  .contact-form .row,
+  .register-form .row {
     flex-direction: column;
   }
 
   .contact-form .row .input50,
-  .contact-form .row .input100 {
+  .register-form .row .input50,
+  .contact-form .row .input100,
+  .register-form .row .input100 {
     width: 100%;
     margin: 0;
   }
