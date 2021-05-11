@@ -2,43 +2,57 @@ def Services():
     services = [
         {
             'id': 1,
-            'file_name': '001.png',
-            'title': 'Development',
+            'file_name': 'design_planning.png',
+            'title': 'Planning & Design',
             'body': '1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '01-01-2021'
         },
         {
             'id': 2,
-            'file_name': '002.png',
-            'title': 'SEO',
+            'file_name': 'building_con.png',
+            'title': 'Building Construction',
             'body': '2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '02-01-2021'
         },
         {
             'id': 3,
-            'file_name': '003.png',
-            'title': 'Marketing',
+            'file_name': 'renovation.png',
+            'title': 'Renovation',
             'body': '3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '03-01-2021'
         },
         {
             'id': 4,
-            'file_name': '004.png',
-            'title': 'CRM',
+            'file_name': 'plumbing.png',
+            'title': 'Plumbing',
             'body': '4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '04-01-2021'
         },
         {
             'id': 5,
-            'file_name': '005.png',
-            'title': 'App Dev',
+            'file_name': 'electrical.png',
+            'title': 'Electrical',
             'body': '5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '04-01-2021'
         },
         {
             'id': 6,
-            'file_name': '006.png',
-            'title': 'Debugging',
+            'file_name': 'mechanic.png',
+            'title': 'Mechanic',
+            'body': '6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
+            'published_date': '04-01-2021'
+        },
+        {
+            'id': 7,
+            'file_name': 'electronics.png',
+            'title': 'Electronics',
+            'body': '6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
+            'published_date': '04-01-2021'
+        },
+        {
+            'id': 8,
+            'file_name': 'consult.png',
+            'title': 'Construction Consultation',
             'body': '6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '04-01-2021'
         }

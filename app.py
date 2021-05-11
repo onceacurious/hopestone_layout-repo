@@ -77,10 +77,14 @@ class RegisterFrom(Form):
         validators.Length(min=3, max=15)
     ])
     password = PasswordField('Password', [
+        validators.DataRequired(),
         validators.EqualTo('confirm', message='Password do not match')
     ])
     confirm = PasswordField('Confrim Password')
-    email = StringField('Email Address', [validators.Length(min=6, max=50)])
+    email = StringField('Email Address', [
+        validators.Length(min=6, max=50),
+
+    ])
     contact = StringField('Contact', [validators.Length(min=7, max=15)])
 
 
