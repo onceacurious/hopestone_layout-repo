@@ -2,9 +2,11 @@
 
 :root {
   --primary-color: #4bf3e8;
-  --secondary-color: #1b206e;
-  --dark-color: rgb(22, 5, 49);
-  --light-color: rgb(238, 237, 237);
+  --secondary-color: #c9c9c9;
+  --btn-primary-color: #18b99e;
+  --btn-secondary-color: #585656;
+  --dark-color: #0a051a;
+  --light-color: #ffffff;
 }
 
 /* BASE STYLE */
@@ -18,7 +20,15 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   color: #111;
-  background: #1b206e;
+  background: var(--dark-color);
+}
+
+.title h1 {
+  color: var(--primary-color);
+}
+
+.title p {
+  color: var(--secondary-color);
 }
 
 h1 {
@@ -195,10 +205,12 @@ section.home {
 
 .services .service {
   padding: 40px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
 }
 
 .services .service:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .services .service .icon img {
@@ -206,7 +218,7 @@ section.home {
 }
 
 .services .service:hover .icon img {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .services .service a h2 {
@@ -214,6 +226,10 @@ section.home {
   font-weight: 500;
   margin-top: 20px;
   color: var(--primary-color);
+}
+
+.services .service p {
+  color: var(--secondary-color);
 }
 
 /* WORK PAGE */
@@ -274,7 +290,8 @@ section.home {
 
 .contact-form {
   position: relative;
-  background: #f9f9f9;
+  background: var(--secondary-color);
+  border-radius: 10px;
   width: calc(100%- 400px);
   padding: 60px 40px 20px;
 }
@@ -317,8 +334,9 @@ section.home {
 }
 
 .contact-form .row input[type="submit"] {
-  background-color: var(--secondary-color);
-  color: #fff;
+  background-color: var(--btn-secondary-color);
+  border: 1px solid var(--btn-secondary-color);
+  color: var(--btn-primary-color);
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -327,19 +345,26 @@ section.home {
   cursor: pointer;
 }
 
+.contact-form .row input[type="submit"]:hover {
+  background-color: transparent;
+  border: 1px solid var(--btn-primary-color);
+  color: var(--btn-primary-color);
+}
+
 .contact-info {
   width: 350px;
-  background: #f9f9f9;
-  padding: 60px 40px 20px;
+  padding: 20px 20px 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
 }
 
 .contact-info .info-box .details h4 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
-  color: #111;
+  color: var(--secondary-color);
 }
 
 .contact-info .info-box {
@@ -372,7 +397,6 @@ section.home {
   width: 100%;
   height: 100%;
 }
-/* margin: 0 40px; */
 
 .register-box {
   position: relative;
@@ -386,7 +410,7 @@ section.home {
   padding: 10px;
 }
 .register-box .register-icon {
-  width: 50px;
+  width: 100px;
 }
 
 .register-box h1 {
@@ -405,7 +429,7 @@ section.home {
 
 .register-form form {
   width: 100%;
-  padding: 5px 5px;
+  padding: 10px 5px;
 }
 
 .register-form .input100,
@@ -444,8 +468,8 @@ section.home {
 
 .register-form input[type="submit"] {
   border-radius: 10px;
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 2px solid var(--btn-secondary-color);
+  color: var(--btn-secondary-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -453,8 +477,9 @@ section.home {
 }
 
 .register-form input[type="button"] {
-  background: var(--secondary-color);
-  color: #f9f9f9;
+  background: var(--btn-secondary-color);
+  border: 2px solid transparent;
+  color: var(--btn-primary-color);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
@@ -462,14 +487,14 @@ section.home {
 }
 
 .register-form input[type="submit"]:hover {
-  background: var(--secondary-color);
-  color: #f9f9f9;
+  background: var(--btn-secondary-color);
+  color: var(--btn-primary-color);
 }
 
 .register-form input[type="button"]:hover {
   border-radius: 10px;
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 2px solid var(--btn-secondary-color);
+  color: var(--btn-secondary-color);
   background: transparent;
 }
 

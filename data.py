@@ -46,14 +46,14 @@ def Services():
             'id': 7,
             'file_name': 'electronics.png',
             'title': 'Electronics',
-            'body': '6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
+            'body': '7 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '04-01-2021'
         },
         {
             'id': 8,
             'file_name': 'consult.png',
             'title': 'Construction Consultation',
-            'body': '6 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
+            'body': '8 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, eos.',
             'published_date': '04-01-2021'
         }
     ]
